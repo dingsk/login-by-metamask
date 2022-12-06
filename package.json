@@ -1,0 +1,27 @@
+{
+  "name": "web3-login",
+  "version": "1.0.0",
+  "description": "web3 login demo project",
+  "main": "lib",
+  "scripts": {
+    "dev": "nodemon --watch 'app/**/*.js' --exec 'yarn start'",
+    "start": "node ./app/index.js"
+  },
+  "dependencies": {
+    "@metamask/eth-sig-util": "^5.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.16.4",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.3"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "author": "",
+  "license": "ISC"
+}
