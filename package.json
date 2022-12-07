@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@metamask/eth-sig-util": "^5.0.2",
-    "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.16.4",

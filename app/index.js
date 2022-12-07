@@ -1,7 +1,6 @@
 require('dotenv').config()
 require('./db');
 
-const bodyParser = require('body-parser');
 const cors = require('cors');
 const express = require('express');
 
@@ -10,7 +9,7 @@ const {services} = require('./services');
 const app = express();
 
 // Middlewares
-app.use(bodyParser.json());
+app.use(express.json());
 app.use(cors());
 
 // Mount REST on /api
